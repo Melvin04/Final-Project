@@ -123,7 +123,7 @@ $(function() {
                 }
 
                                 $(".saveButton").click(function () {
-                                        //ev.preventDefault();
+                                      
                                         self.save(thesisObject);
                                         return false;
                                 });
@@ -148,7 +148,7 @@ $(function() {
         },
         displayLoadedList: function(list) {
             var self = this;
-            // iterate thru the list to display each item
+
             _.each(list, function(item) {
                 var $thesisItem = $(getTemplate('tpl-thesis-list-item', item));
                 var id = item.Id
@@ -170,7 +170,7 @@ $(function() {
 
             });
 
-            // add event handlers for the edit button
+     
 
         },
                 
